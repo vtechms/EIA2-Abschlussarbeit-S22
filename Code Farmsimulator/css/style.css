@@ -1,0 +1,17 @@
+body {
+    background-image: url("../images/farm-background.png");
+    background-repeat: no-repeat;
+}
+
+#canvas-grid{
+    border: solid 1px black;
+}
+
+#wallet {
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }

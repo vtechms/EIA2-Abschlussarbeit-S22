@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm Simulator</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./ts-out/Market.js"></script>
+    <script src="./ts-out/Wallet.js"></script>
+    <script src="./ts-out/Vegetable.js"></script>
+    <script src="./ts-out/RedCabbage.js"></script>
+    <script src="./ts-out/Corn.js"></script>
+    <script src="./ts-out/Carrot.js"></script>
+    <script src="./ts-out/Tomato.js"></script>
+    <script src="./ts-out/Onion.js"></script>
+    <script src="./ts-out/Inventory.js"></script>
+    <script src="./ts-out/Position.js"></script>
+    <script src="./ts-out/Pest.js"></script>
+    <script src="./ts-out/Vector.js"></script>
+    <script src="./ts-out/Cell.js"></script>
+    <script src="./ts-out/Main.js"></script>
+  </head>
+  <body>
+    <div>
+      <canvas></canvas>
+    </div>
+    <div>
+      <label>Choose an action:</label>
+      <select id="action-options">
+        <option value="rest">Rest</option>
+        <option value="plant">Plant</option>
+        <option value="water">Water</option>
+        <option value="fertilize">Fertilize</option>
+        <option value="harvest">Harvest</option>
+        <option value="pest-control">Fight pest</option>
+      </select>
+    </div>
+    <div>
+      <label>Choose a seedling:</label>
+      <select id="seedling-options">
+        <option value="none">None</option>
+        <option value="redCabbage">Red cabbage</option>
+        <option value="corn">Corn</option>
+        <option value="carrot">Carrot</option>
+        <option value="tomato">Tomato</option>
+        <option value="onion">Onion</option>
+      </select>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <th colspan="3">Seedlings, Fertilizer & Pesticide</th>
+          <th>Vegetables</th>
+        </tr>
+        <tr>
+          <td><b>Buy</b></td>
+          <td><b>Prices</b></td>
+          <td><b>Your inventory</b></td>
+          <td><b>Sales prices</b></td>
+        </tr>
+        <tr>
+          <td>
+            <button value="redCabbage" id="buy-red-cabbage" type="button">
+              Red cabbage
+            </button>
+          </td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>
+            <button value="corn" id="buy-corn" type="button">Corn</button>
+          </td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>
+            <button value="carrot" id="buy-carrot" type="button">Carrot</button>
+          </td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>
+            <button value="tomato" id="buy-tomato" type="button">Tomato</button>
+          </td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>
+            <button value="onion" id="buy-onion" type="button">Onion</button>
+          </td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>
+            <button value="fertilizer" id="buy-fertilizer" type="button">
+              Fertilizer
+            </button>
+          </td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>
+            <button value="pesticide" id="buy-pesticide" type="button">
+              Pesticide
+            </button>
+          </td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+    </div>
+    <div id="wallet">Wallet</div>
+  </body>
+</html>

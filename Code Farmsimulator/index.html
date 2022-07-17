@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm Simulator</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <script src="./ts-out/Settings.js"></script>
+  </head>
+  <body>
+    <h1>Farm Simulator Settings</h1>
+    <button value="start" id="start" type="button">Start simulation</button>
+    <div style="color: red" id="invalid-input"></div>
+    <div id="prices">
+      <h3>Purchase prices (between 1 and 50)</h3>
+      <label><b>Red cabbage</b></label
+      ><br />
+      <label>Min:</label>
+      <input
+        type="number"
+        id="purchase-redCabbage-min"
+        min="1"
+        max="50"
+        value="1"
+      />
+      <label>Max:</label>
+      <input
+        type="number"
+        id="purchase-redCabbage-max"
+        min="1"
+        max="50"
+        value="3"
+      />
+      <br />
+      <label><b>Corn</b></label
+      ><br />
+      <label>Min:</label>
+      <input type="number" id="purchase-corn-min" min="1" max="50" value="2" />
+      <label>Max:</label>
+      <input type="number" id="purchase-corn-max" min="1" max="50" value="4" />
+      <br />
+      <label><b>Carrot</b></label
+      ><br />
+      <label>Min:</label>
+      <input
+        type="number"
+        id="purchase-carrot-min"
+        min="1"
+        max="50"
+        value="3"
+      />
+      <label>Max:</label>
+      <input
+        type="number"
+        id="purchase-carrot-max"
+        min="1"
+        max="50"
+        value="5"
+      />
+      <br />
+      <label><b>Tomato</b></label
+      ><br />
+      <label>Min:</label>
+      <input
+        type="number"
+        id="purchase-tomato-min"
+        min="1"
+        max="50"
+        value="4"
+      />
+      <label>Max:</label>
+      <input
+        type="number"
+        id="purchase-tomato-max"
+        min="1"
+        max="50"
+        value="6"
+      />
+      <br />
+      <label><b>Onion</b></label
+      ><br />
+      <label>Min:</label>
+      <input type="number" id="purchase-onion-min" min="1" max="50" value="5" />
+      <label>Max:</label>
+      <input type="number" id="purchase-onion-max" min="1" max="50" value="7" />
+      <br />
+      <label><b>Fertilizer</b></label
+      ><br />
+      <label>Min:</label>
+      <input
+        type="number"
+        id="purchase-fertilizer-min"
+        min="1"
+        max="50"
+        value="1"
+      />
+      <label>Max:</label>
+      <input
+        type="number"
+        id="purchase-fertilizer-max"
+        min="1"
+        max="50"
+        value="3"
+      />
+      <br />
+      <label><b>Pesticide</b></label
+      ><br />
+      <label>Min:</label>
+      <input
+        type="number"
+        id="purchase-pesticide-min"
+        min="1"
+        max="50"
+        value="1"
+      />
+      <label>Max:</label>
+      <input
+        type="number"
+        id="purchase-pesticide-max"
+        min="1"
+        max="50"
+        value="3"
+      />
+      <br /><br />
+
+      <h3>Sales prices (between 1 and 50)</h3>
+      <label><b>Red cabbage</b></label
+      ><br />
+      <label>Min:</label>
+      <input
+        type="number"
+        id="sell-redCabbage-min"
+        min="1"
+        max="50"
+        value="5"
+      />
+      <label>Max:</label>
+      <input
+        type="number"
+        id="sell-redCabbage-max"
+        min="1"
+        max="50"
+        value="15"
+      />
+      <br />
+      <label><b>Corn</b></label
+      ><br />
+      <label>Min:</label>
+      <input type="number" id="sell-corn-min" min="1" max="50" value="15" />
+      <label>Max:</label>
+      <input type="number" id="sell-corn-max" min="1" max="50" value="25" />
+      <br />
+      <label><b>Carrot</b></label
+      ><br />
+      <label>Min:</label>
+      <input type="number" id="sell-carrot-min" min="1" max="50" value="25" />
+      <label>Max:</label>
+      <input type="number" id="sell-carrot-max" min="1" max="50" value="35" />
+      <br />
+      <label><b>Tomato</b></label
+      ><br />
+      <label>Min:</label>
+      <input type="number" id="sell-tomato-min" min="1" max="50" value="35" />
+      <label>Max:</label>
+      <input type="number" id="sell-tomato-max" min="1" max="50" value="45" />
+      <br />
+      <label><b>Onion</b></label
+      ><br />
+      <label>Min:</label>
+      <input type="number" id="sell-onion-min" min="1" max="50" value="45" />
+      <label>Max:</label>
+      <input type="number" id="sell-onion-max" min="1" max="50" value="50" />
+    </div>
+  </body>
+</html>
